@@ -9,6 +9,7 @@ return (
         <h1>Projects</h1>
         {/* list of all the repos on your personal github account and linked */}
         <h3>GitHub Account:<a href="https://github.com/Trentp26">Trent26</a></h3>
+        {/* links to git hub projects */}
         <div>
             <li><a href="https://github.com/burlingtoncodeacademy-students/guess-the-number-Trentp26-1">Capstone project</a></li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/react-chat-trenton-and-paul">Chat Application</a></li>

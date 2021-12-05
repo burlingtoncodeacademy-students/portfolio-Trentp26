@@ -11,7 +11,7 @@ export default function WorkH() {
       {/* Prior employers going back ten years. */}
       {/* Personal skills and experience */}
       <h5>My Goal is to find a career path that I can strive and grow in</h5>
-      
+      {/* past employers */}
       <ul>
           Past Employers
           <li>Shaws</li>
@@ -19,7 +19,7 @@ export default function WorkH() {
           <li>Vermont Meat and SeaFood</li>
           <li>self employed(2 years)</li>
       </ul>
-      
+      {/* link and picture of resume */}
       <a href="/assets/Resume.docx.pdf" download>
         <img
         className="resumeImg"

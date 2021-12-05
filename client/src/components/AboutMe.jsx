@@ -4,8 +4,10 @@ import './styles/Style.scss'
 
 export default function AboutMe(){
 return (
+    //wrapping div
     <div className="aboutMe">
         <h1>About me!</h1>
+        {/* paragraph about me  */}
         <p>I am a native Vermonter, born in Burltion VT and have been here ever since.
            In 2019 went to Castleton University for business management, i liked it but covid hit and sent everyone home.
            The following year i decided to take it of and explore my options.

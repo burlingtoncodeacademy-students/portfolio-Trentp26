@@ -5,7 +5,9 @@ import './styles/Style.scss'
 
 export default function Hobbies(){
 return (
+    //wrapping div
     <div>
+        {/* hobbies */}
         <h1>Hobbies</h1>
         <p>ultimate</p>
         <p>outdoors</p>
