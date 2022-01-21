@@ -1,7 +1,7 @@
 //Imports hooks from react
 import React from "react";
 import { Link } from "react-router-dom";
-import './styles/Style.scss'
+import './Style.scss'
 
 export default function Projects(){
 return (

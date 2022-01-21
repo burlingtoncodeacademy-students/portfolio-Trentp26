@@ -1,6 +1,6 @@
 //Imports hooks from react
 import React from "react";
-import "./styles/Style.scss";
+import "./Style.scss";
 import linkedImg from "./IMG/linkedIn.jpg";
 
 export default function Footer() {

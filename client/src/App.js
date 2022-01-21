@@ -8,6 +8,7 @@ import Hobbies from "./components/Hobbies";
 import Nav from "./components/NavBar";
 import Projects from "./components/ProjectsPage";
 import WorkH from "./components/WorkH";
+import BackGround from "./components/Backround";
 
 export default function App(props) {
   //routes to the other chat boxes and back to home
@@ -21,11 +22,11 @@ export default function App(props) {
           <Route path="/" element={<Home />} />
           <Route path="/navbar" element={<Nav />} />
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/projects" element={<Projects/>} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/workHistory" element={<WorkH />} />
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/footer" element={<Footer />} />
-           
+          <Route path="/background" element={<BackGround />} />
         </Routes>
       </BrowserRouter>
     </div>

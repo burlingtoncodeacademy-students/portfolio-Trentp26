@@ -1,6 +1,6 @@
 //Imports hooks from react
 import React from "react";
-import "./styles/Style.scss";
+import "./Style.scss";
 import photo from "./IMG/Screenshot.jpg"
 
 export default function WorkH() {
