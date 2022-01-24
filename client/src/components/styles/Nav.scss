@@ -1,10 +1,12 @@
 //Nav styling
+
 .navDiv {
   position: fixed;
   display: flex;
   align-self: start;
   margin-left: 5px;
-  z-index: 3;
+  z-index: 4;
+  font-family: "DM Sans", sans-serif;
 }
 /* Style The Dropdown Button */
 .dropbtn {
@@ -15,12 +17,19 @@
   font-size: 16px;
   border-radius: 0 0 25% 0;
   cursor: pointer;
+  z-index: 4;
+  align-self: start;
+  position: fixed;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   // position: absolute;
   display: inline-block;
+  z-index: 4;
+  align-self: start;
+  // position: fixed;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -31,6 +40,8 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 4;
+  align-self: start;
+  position: fixed;
 }
 
 /* Links inside the dropdown */
@@ -39,19 +50,31 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  z-index: 4;
+  align-self: start;
+  // position: fixed;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: red;
+  z-index: 4;
+  align-self: start;
+  // position: fixed;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  z-index: 4;
+  align-self: start;
+  // position: fixed;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: gray;
+  z-index: 4;
+  align-self: start;
+  // position: fixed;
 }

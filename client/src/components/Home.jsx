@@ -18,12 +18,10 @@ export default function Home() {
     //wrapping div
     <div className="wrapper">
       <BackGround id="tsparticles" />
-
+      <Nav />
       <section id="Home">
         {/* navigation bar */}
-        <div className="navDiv">
-          <Nav />
-        </div>
+        <div className="navDiv"></div>
         <div className="imageBox">
           <img
             className="TrentImg"
@@ -42,7 +40,7 @@ export default function Home() {
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
-            fill="#ff0000"
+            fill="orange"
             fill-opacity="1"
             d="M0,64L40,69.3C80,75,160,85,240,112C320,139,400,181,480,186.7C560,192,640,160,720,170.7C800,181,880,235,960,234.7C1040,235,1120,181,1200,176C1280,171,1360,213,1400,234.7L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
           ></path>

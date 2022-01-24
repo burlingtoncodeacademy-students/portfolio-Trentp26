@@ -1,0 +1,12 @@
+.aboutMe {
+  z-index: 2;
+
+  .textBox {
+    width: 70vw;
+    height: fit-content;
+    font-family: "Bebas Neue", cursive;
+    border: solid 3px red;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}
