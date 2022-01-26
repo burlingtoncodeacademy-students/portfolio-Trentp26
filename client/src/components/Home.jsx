@@ -18,10 +18,12 @@ export default function Home() {
     //wrapping div
     <div className="wrapper">
       <BackGround id="tsparticles" />
+      <div className="navDiv"></div>
       <Nav />
+
       <section id="Home">
         {/* navigation bar */}
-        <div className="navDiv"></div>
+
         <div className="imageBox">
           <img
             className="TrentImg"
@@ -33,12 +35,15 @@ export default function Home() {
           {/* header */}
           <h1>Trenton poitras</h1>
           <h4>
-            {" "}
             An adventurous programer ready to tackle the world of web
-            development{" "}
+            development
           </h4>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="homesvg"
+        >
           <path
             fill="orange"
             fill-opacity="1"
@@ -60,13 +65,11 @@ export default function Home() {
         <WorkH />
       </section>
       {/* Component  */}
-      <section id="Hobbies">
+      <section className="Hobbies">
         <Hobbies />
-      </section>
-      {/* Component  */}
-      <section id="Footer">
         <Footer />
       </section>
+      {/* Component  */}
     </div>
   );
 }

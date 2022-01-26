@@ -9,7 +9,7 @@
   // margin: 0%;
   z-index: 2;
 
-  svg {
+  .homesvg {
     // display: block;
     position: absolute;
     align-self: flex-end;
@@ -19,10 +19,17 @@
   }
 
   img {
-    margin-left: 20vw;
+    margin-left: 13vw;
     margin-right: 5vw;
     border-radius: 50%;
     height: 40vh;
     width: auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+  h4 {
+    font-size: 2rem;
   }
 }

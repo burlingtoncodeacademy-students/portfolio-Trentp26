@@ -2,14 +2,15 @@
 import React from "react";
 import "./Style.scss";
 import linkedImg from "./IMG/linkedIn.jpg";
+import "./styles/Footer.scss";
 
 export default function Footer() {
   return (
-    <div className="Footer">
+    <div className="FooterWrapper">
       {/* contact info */}
-        <div> Contact Info </div>
-        <div> (802)777-4398</div>
-        <div> Email: trentpoitras@gmail.com</div>
+      <div> Contact Info </div>
+      <div> (802)777-4398</div>
+      <div> Email: trentpoitras@gmail.com</div>
       {/* link and image to linked in account */}
       <div>
         <a href="https://www.linkedin.com/in/trenton-poitras-5b5770198/">
