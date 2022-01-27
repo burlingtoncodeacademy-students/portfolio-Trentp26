@@ -65,11 +65,9 @@ export default function Home() {
         <WorkH />
       </section>
       {/* Component  */}
-      <section className="Hobbies">
-        <Hobbies />
-        <Footer />
-      </section>
-      {/* Component  */}
+
+      <Hobbies />
+      <Footer />
     </div>
   );
 }

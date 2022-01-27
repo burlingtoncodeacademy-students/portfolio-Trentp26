@@ -21,10 +21,6 @@
     width: 85vw;
     height: 30vh;
 
-    .projectSquare :hover {
-      background-color: red;
-    }
-
     .square {
       display: flex;
       justify-content: center;
@@ -42,6 +38,10 @@
         font-size: 2rem;
       }
     }
+  }
+  .square:hover {
+    background: transparentize($color: #0099ff, $amount: 0.2);
+    height: 19vh;
   }
   .SVG {
     display: none;
