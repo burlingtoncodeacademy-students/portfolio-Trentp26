@@ -103,25 +103,25 @@ export default function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#aboutme" className="nav-link">
+            <a href="#AboutMe" className="nav-link">
               <Icon3 />
               <span className="link-text">About Me</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#Projects" className="nav-link">
               <Icon2 />
               <span className="link-text">Projects</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#WorkHistory" className="nav-link">
               <Icon4 />
               <span className="link-text">Work History</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#Hobbies" className="nav-link">
               <Icon />
               <span className="link-text">Hobbies</span>
             </a>
