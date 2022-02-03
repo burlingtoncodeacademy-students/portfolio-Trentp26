@@ -18,7 +18,7 @@ export default function Home() {
     //wrapping div
     <div className="wrapper">
       <BackGround id="tsparticles" />
-      <div className="navDiv"></div>
+
       <Nav />
 
       <section id="Home">

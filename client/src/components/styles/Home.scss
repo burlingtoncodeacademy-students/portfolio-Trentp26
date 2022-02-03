@@ -33,3 +33,14 @@
     font-size: 2rem;
   }
 }
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0099ff;
+}
