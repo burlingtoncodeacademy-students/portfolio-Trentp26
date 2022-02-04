@@ -33,10 +33,10 @@ export default function Home() {
         </div>
         <div className="textBox">
           {/* header */}
-          <h1>Trenton poitras</h1>
+          <h1>Trenton Poitras</h1>
           <h4>
             An adventurous programer ready to tackle the world of web
-            development
+            development!
           </h4>
         </div>
         <svg
