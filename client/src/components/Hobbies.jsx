@@ -6,8 +6,8 @@ import "./styles/Hobbies.scss";
 export default function Hobbies() {
   return (
     //wrapping div
-    <div classname="HWrapper">
-      <div className="hobbiesDiv">
+    <div className="HWrapper">
+      <div className="hobbiesDiv" id="hobbies">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"

@@ -121,7 +121,7 @@ export default function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#Hobbies" className="nav-link">
+            <a href="#hobbies" className="nav-link">
               <Icon />
               <span className="link-text">Hobbies</span>
             </a>
