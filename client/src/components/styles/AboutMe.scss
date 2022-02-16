@@ -1,3 +1,13 @@
+//small screens 
+@media only screen and (min-width: 600px){
+  
+}
+//large screens 
+@media only screen and (max-width: 600px){
+  
+}
+
+
 .aboutMe {
   display: flex;
   z-index: 2;
@@ -29,7 +39,7 @@
     position: absolute;
     align-self: flex-start;
     width: 100vw;
-    z-index: 0;
+    z-index: -1;
     overflow: hidden;
   }
 

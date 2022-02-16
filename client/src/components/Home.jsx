@@ -35,7 +35,7 @@ export default function Home() {
           {/* header */}
           <h1>Trenton Poitras</h1>
           <h4>
-            An adventurous programer ready to tackle the world of web
+            An adventurous programer ready to tackle the world of software
             development!
           </h4>
         </div>
