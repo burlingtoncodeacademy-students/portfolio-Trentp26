@@ -1,3 +1,4 @@
+//wrapping fiv for work history component 
 .workWrapper {
   display: flex;
   z-index: 2;
@@ -6,21 +7,22 @@
   align-items: center;
   justify-content: flex-start;
   justify-content: space-between;
-
-  .TopDiv {
+//styling for top svg
+  .TopSVG {
     position: absolute;
     align-self: flex-start;
     width: 100vw;
     z-index: 0;
     overflow: hidden;
   }
-
+// div that contains the information of past employers in divs
   .workHDiv {
     width: 60rem;
     height: 50vh;
     margin-top: 10rem;
     padding-left: 5rem;
   }
+  //styling for title in the work history 
   .titleDiv {
     display: flex;
     flex-direction: column;
@@ -35,6 +37,7 @@
       font-size: 1.5rem;
     }
   }
+  // each employer div
   .employerDiv {
     display: flex;
     flex-direction: column;
@@ -46,6 +49,7 @@
     border-radius: 0 5rem 5rem 0;
     padding-right: 1rem;
   }
+  //resume image styling 
   .resumeImg {
     margin-top: 20rem;
     margin-right: 10rem;

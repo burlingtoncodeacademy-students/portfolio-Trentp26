@@ -7,7 +7,7 @@
   
 }
 
-
+//wrapping div centering the items on the page
 .aboutMe {
   display: flex;
   z-index: 2;
@@ -17,7 +17,7 @@
   justify-content: center;
   //   overflow-x: hidden;
   //   overflow-y: hidden;
-
+// A div that wraps the text in the about section 
   .textBox {
     width: 70vw;
 
@@ -34,7 +34,7 @@
       font-size: 1.5rem;
     }
   }
-
+// top and bottom SVG in the about section 
   .topSVG {
     position: absolute;
     align-self: flex-start;

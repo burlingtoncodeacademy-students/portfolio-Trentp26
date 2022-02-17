@@ -1,3 +1,4 @@
+//common used styles 
 :root {
   font-size: 16px;
   font-family: "open sans";
@@ -43,18 +44,19 @@
   }
 }
 
+//wrapping nav div 
 .Navwrapper {
   width: 100vw;
   // height: 100vh;
 }
-
+// nav bar body (nav)
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
   z-index: 4;
   transition: width 200ms ease;
 }
-
+// (ul) 
 .navbar-nav {
   list-style: none;
   padding: 0;
@@ -64,6 +66,7 @@
   align-items: center;
   height: 100vh;
 }
+// list items (li)
 .nav-item {
   width: 100%;
 }
@@ -71,6 +74,7 @@
 //   margin-top: auto;
 // }
 
+// each link (Link)
 .nav-link {
   display: flex;
   align-items: center;
@@ -81,29 +85,31 @@
   transition: 600ms;
 }
 
+// styling when hovered on 
 .nav-link:hover {
   filter: grayscale(0) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
 }
+// dont display link text unless hovered on 
 .link-text {
   display: none;
   margin-left: 1rem;
 }
-
+// icon styling 
 .nav-link svg {
   min-width: 2rem;
   margin: 0 1.5rem;
 }
-
+// when nav bar is hovers extend out
 .navbar:hover {
   width: 16rem;
 }
-
+// when icon is hovered it will display link text 
 .navbar:hover .link-text {
   display: block;
 }
-
+//coloring 
 .fa-primary {
   color: var(--text-primary);
 }
@@ -115,7 +121,7 @@
 .fa-secondary {
   transition: 600ms;
 }
-
+//top logo styling 
 .logo {
   font-weight: bold;
   text-transform: uppercase;
@@ -126,12 +132,12 @@
   font-size: 1.5rem;
   letter-spacing: 0.3ch;
 }
-
+// top logo styling 
 .logo svg {
   transform: rotate(0deg);
   transition: transform 600ms;
 }
-
+//when logo is hovered on them rotate 
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }

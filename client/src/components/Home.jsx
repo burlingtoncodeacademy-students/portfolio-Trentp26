@@ -17,12 +17,13 @@ export default function Home() {
   return (
     //wrapping div
     <div className="wrapper">
+      {/* tsParticles component  */}
       <BackGround id="tsparticles" />
-
+      {/* navigation component  */}
       <Nav />
 
       <section id="Home">
-        {/* navigation bar */}
+        {/* profile image */}
 
         <div className="imageBox">
           <img
@@ -31,6 +32,7 @@ export default function Home() {
             alt="Picture of Trenton Poitras"
           />
         </div>
+        {/* header text  */}
         <div className="textBox">
           {/* header */}
           <h1>Trenton Poitras</h1>
@@ -39,6 +41,7 @@ export default function Home() {
             development!
           </h4>
         </div>
+        {/* bottom svg */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"

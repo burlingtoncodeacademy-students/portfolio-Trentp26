@@ -6,6 +6,7 @@ import "./styles/Footer.scss";
 
 export default function Footer() {
   return (
+    //wrapping footer div
     <div className="FooterWrapper">
       {/* contact info */}
       <div>
@@ -27,6 +28,7 @@ export default function Footer() {
         </a>
         <a href=""></a>
       </div>
+      {/* bottom svgs  */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

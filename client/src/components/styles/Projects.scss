@@ -1,3 +1,4 @@
+//wrapping div for the projects component 
 .Projectwrapper {
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,21 +9,21 @@
   height: 100vh;
   width: 100vw;
   background-color: orange;
-
+//text styling 
   h1 {
     font-size: 5rem;
   }
   h3 {
     font-size: 3rem;
   }
-
+//wrapping div for each project
   .projectSquare {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 85vw;
     height: 30vh;
-
+// styling for each project link
     .square {
       display: flex;
       justify-content: center;
@@ -41,10 +42,12 @@
       }
     }
   }
+  //when square is hovered on turn blue 
   .square:hover {
     background: transparentize($color: #0099ff, $amount: 0.2);
     height: 19vh;
   }
+  //svg styling 
   .SVG {
     display: none;
     position: absolute;

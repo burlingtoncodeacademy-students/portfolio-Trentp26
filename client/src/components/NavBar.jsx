@@ -2,6 +2,7 @@
 import React from "react";
 import "./Style.scss";
 import "./styles/Nav.scss";
+import {Link, link} from 'react-scroll'
 
 function Icon1() {
   return (
@@ -96,35 +97,40 @@ export default function Nav() {
     <div className="Navwrapper">
       <nav className="navbar">
         <ul className="navbar-nav">
+          {/* link to top of the page  */}
           <li className="logo">
-            <a href="/" className="nav-link">
+            <Link className="nav-link" to='Home' spy={true} smooth={true} offset={50} duration={500}>
               <span className="link-text">Trent</span>
               <Icon1 />
-            </a>
+              </Link>
           </li>
+          {/* link to about me section  */}
           <li className="nav-item">
-            <a href="#AboutMe" className="nav-link">
+          <Link className="nav-link" to='aboutMe' spy={true} smooth={true} offset={50} duration={500}>
               <Icon3 />
               <span className="link-text">About Me</span>
-            </a>
+            </Link>
           </li>
+          {/* link to projects section  */}
           <li className="nav-item">
-            <a href="#Projects" className="nav-link">
+          <Link className="nav-link" to='Projects' spy={true} smooth={true} offset={50} duration={500}>
               <Icon2 />
               <span className="link-text">Projects</span>
-            </a>
+            </Link>
           </li>
+           {/* link to work history  section  */}
           <li className="nav-item">
-            <a href="#WorkHistory" className="nav-link">
+          <Link className="nav-link" to='WorkHistory' spy={true} smooth={true} offset={50} duration={500}>
               <Icon4 />
               <span className="link-text">Work History</span>
-            </a>
+            </Link>
           </li>
+           {/* link to hobbies section  */}
           <li className="nav-item">
-            <a href="#hobbies" className="nav-link">
+          <Link className="nav-link" to='hobbies' spy={true} smooth={true} offset={50} duration={500}>
               <Icon />
               <span className="link-text">Hobbies</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

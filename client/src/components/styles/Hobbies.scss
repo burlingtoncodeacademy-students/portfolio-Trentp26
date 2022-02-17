@@ -14,7 +14,7 @@
   // margin-top: 5rem;
   height: 100vh;
   width: 100vw;
-
+//text styling 
   .text {
     display: flex;
     justify-content: center;
@@ -26,6 +26,7 @@
     background: transparentize($color: orange, $amount: 0.2);
     text-align: center;
   }
+  //scg styling 
   .topSvg {
     position: absolute;
     align-self: flex-start;
@@ -34,7 +35,7 @@
     overflow: hidden;
   }
 }
-
+//when the div is hovered on it will change blue 
 .text:hover {
   background: transparentize($color: #0099ff, $amount: 0.2);
   height: 19vh;

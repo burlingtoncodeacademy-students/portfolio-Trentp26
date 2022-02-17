@@ -8,6 +8,7 @@ export default function Hobbies() {
     //wrapping div
     <div className="HWrapper">
       <div className="hobbiesDiv" id="hobbies">
+        {/* top svg */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
