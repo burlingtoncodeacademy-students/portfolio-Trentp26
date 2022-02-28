@@ -1,5 +1,5 @@
 .HWrapper {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   // padding-top: 50vh;
 }
@@ -12,7 +12,7 @@
   // background-color: orange;
   z-index: 3;
   // margin-top: 5rem;
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
 //text styling 
   .text {
@@ -33,6 +33,7 @@
     width: 100vw;
     z-index: 0;
     overflow: hidden;
+    
   }
 }
 //when the div is hovered on it will change blue 

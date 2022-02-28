@@ -9,6 +9,7 @@ import Nav from "./components/NavBar";
 import Projects from "./components/ProjectsPage";
 import WorkH from "./components/WorkH";
 import BackGround from "./components/Backround";
+import Modal1 from "./components/Modal1";
 
 export default function App(props) {
   //routes to the other chat boxes and back to home
@@ -27,6 +28,7 @@ export default function App(props) {
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/background" element={<BackGround />} />
+          <Route path="/modal1" element={<Modal1/>} />
         </Routes>
       </BrowserRouter>
     </div>

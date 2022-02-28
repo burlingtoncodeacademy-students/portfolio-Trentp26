@@ -2,8 +2,11 @@
 import React from "react";
 import "./Style.scss";
 import "./styles/Hobbies.scss";
+import Modal1 from "./Modal1";
+import { useState } from "react";
 
 export default function Hobbies() {
+  const [openModel, setOpenModal] = useState(false);
   return (
     //wrapping div
     <div className="HWrapper">
@@ -21,17 +24,20 @@ export default function Hobbies() {
           ></path>
         </svg>
         {/* hobbies */}
+        <div
+          className="text"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
+          <h1>Ultimate Frisbee</h1>
+        </div>
+        {openModel && <Modal1 setOpenModal={setOpenModal} />}
         <div className="text">
-          <h1>Hobbies</h1>
+          <h1>Outdoors</h1>
         </div>
         <div className="text">
-          <h1>ultimate</h1>
-        </div>
-        <div className="text">
-          <h1>outdoors</h1>
-        </div>
-        <div className="text">
-          <h1>working Out/Body Building</h1>
+          <h1>Working Out/Body Building</h1>
         </div>
       </div>
     </div>

@@ -25,13 +25,23 @@ export default function AboutMe() {
         {/* paragraph about me  */}
 
         <p>
-          I am a native Vermonter, born in Burlington, VT. After graduating from Champlain Valley High school in 2019, I went to Castleton University for business management
-          I liked it but, then covid hit and sent everyone home. The following year I
-          decided to take it off, and explore my options. In my exploring I came
-          across Burlington code academy. It sounded like a good option. I had
-          always been working with computers and it was a good focused
-          carer path. I took the preDev class and loved it!
-          So then took the full time software development course and recently graduated on december 17th, obtaining my certification on software development!
+          Like most high school graduates, I enrolled in college (Castleton
+          University in Vermont). I was taking business classes... then 5 months
+          into my freshman year; COVID. For a kid who had always been told he
+          was good at noticing that something was off, I definitely didn't see
+          this coming. Online learning is a great resource, and a great
+          option... so long as the class as been generated to be taught online.
+          The courses I was enrolled in did not, at least for me, meet my needs.
+          Now what... fast forward a few months, I'm getting bored being at home
+          and my Mom shares with me this program called Burlington Code Academy.
+          Not really knowing exactly what I was signing up for a took an
+          introductory coding course and I LOVED IT. Turns out my that my
+          ability to notice disruptions in patterns, continues to serve me well.
+          In December 2021 i received my certification in software development.
+          As much as I love gaming and now coding, I also love to be outside. I
+          ski, snowboard, fish, hunt, boat, kayak, waterski, golf and weight
+          lift. I have held jobs in sales, carpentry, and the restaurant
+          business.
         </p>
       </div>
       {/* bottom svg */}
